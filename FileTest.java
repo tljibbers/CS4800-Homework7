@@ -58,6 +58,7 @@ public class FileTest {
     {
         FileWriter fw = new FileWriter("Test File");
         BufferedWriter bw = new BufferedWriter(fw);
+        c = cf.getFontColorSize(0);
         fc.editFile(c, bw);
     }
 
